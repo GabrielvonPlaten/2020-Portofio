@@ -1,0 +1,22 @@
+{
+  "software": [
+    { "name": "VS Code" },
+    { "name": "Git" },
+    { "name": "Windows/Mac" },
+    { "name": "Figma" }
+  ],
+  "skills": [
+    { "name": "HTML" },
+    { "name": "CSS/Scss" },
+    { "name": "JavaScript" },
+    { "name": "TypeScript" },
+    { "name": "React.js" },
+    { "name": "Vue.js" }
+  ],
+  "improving": [
+    { "name": "UX" },
+    { "name": "Design" },
+    { "name": "Node.js" },
+    { "name": "Testing" }
+  ]
+}

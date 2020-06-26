@@ -44,7 +44,7 @@ export const Home: React.FC = () => {
         </p>
       </div>
       <a
-        href='https://www.docdroid.net/J5U2Pxs/cv-pdf'
+        href='https://docdro.id/3DDTnni'
         target='_blank'
         className='btn btn--orange name__resume-btn anim'
         data-delay='1'

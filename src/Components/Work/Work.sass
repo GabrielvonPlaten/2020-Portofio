@@ -1,2 +1,61 @@
-.about__title
-  text-align: center
+@import '../../Styles/style.sass'
+  
+.work-container
+  display: grid
+  margin: 5%
+  width: 90%
+  margin: 5%
+  overflow: hidden
+  grid-template-columns: repeat(3, 1fr)
+
+  &__work
+    margin: 0 auto
+    width: 95%
+    height: 350px
+    background-size: cover
+    box-shadow: 0px -20px 0px #161616
+
+  .work-about
+    background: red
+    heigth: 200px
+
+    h2
+      font-size: 3rem
+
+  .work-darkBackground
+    height: 350px
+    width: 100%
+    position: relative
+    bottom: 0
+    z-index: 2
+    backdrop-filter: saturate(150%) blur(10px)
+    background-color: rgba(0, 10, 10, 0.4)
+    transition: all 0.7s
+    transition-timing-function: cubic-bezier(.29,.56,.2,.85)
+
+  .work-about
+    position: relative
+    bottom: -10px
+    height: 7.4rem
+    background: #171b1e
+    margin: 0
+    padding: 15px
+    z-index: 10
+    box-shadow: 0px -5px 10px -4px #14190f
+    transition: all 0.4s
+    transition-timing-function: cubic-bezier(.32,.39,.19,.99)
+
+    h2
+      font-size: 1.7rem
+      margin: 0
+      color: $white-0
+
+    p
+      color: $white-0
+      width: 60%
+
+.work-container__work:hover .work-about
+  bottom: 25%
+
+.work-container__work:hover .work-darkBackground
+  bottom: 100%

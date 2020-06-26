@@ -1,0 +1,28 @@
+{
+  "works": [
+    {
+      "work": "React Weather App",
+      "thumbnail": "https://i.imgur.com/Xcf58m4.png",
+      "github": "https://github.com/GabrielvonPlaten/React-Weather",
+      "website": "http://reactweatherapi.surge.sh/",
+      "description": "A simple weather website made with React & Typescript.",
+      "tech": ["React", "TypeScript", "Styled-Components"]
+    },
+    {
+      "work": "IMDb Clone",
+      "thumbnail": "https://i.imgur.com/LCBgxjn.png",
+      "github": "https://github.com/GabrielvonPlaten/Filmor-Client",
+      "website": "https://filmor.herokuapp.com/",
+      "description": "An IMDb clone using TMDb's API.",
+      "tech": ["React", "TypeScript", "Sass", "Webpack"]
+    },
+    {
+      "work": "Snicks",
+      "thumbnail": "https://i.imgur.com/JFxvRLX.png",
+      "github": null,
+      "website": "https://snicksstories.com/",
+      "description": "A mobile application for reading & sharing stories.",
+      "tech": ["React Native", "Sketch"]
+    }
+  ]
+}
